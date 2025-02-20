@@ -4,48 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Starbucks Website</title>
-    <!-- Link to Css -->
-<link rel="stylesheet" href="style.css">
-    <!-- Box Icons -->
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Enlace al archivo CSS externo para estilos -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Enlace a la librería de iconos Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <!-- Navabar -->
+     <!-- Barra de navegación -->
      <header>
+        <!-- Logo de la empresa -->
         <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+        <!-- Icono de menú para dispositivos móviles -->
         <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Menú de navegación con enlaces a diferentes secciones -->
         <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#shop">Shop</a></li>
-            <li><a href="#delivery">Delivery</a></li>
-            <li><a href="#app">App</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#shop">Comercio</a></li>
+            <li><a href="#delivery">Entrega</a></li>
+            <li><a href="#app">Aplicación</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#contact">Contacto</a></li>
         </ul>
      </header>
-    <!-- Home -->
+    <!-- Sección de inicio -->
      <section class="home" id="home">
         <div class="home-text">
-            <span>Welcome To</span>
-            <h1>Starbucks Coffee</h1>
-            <h2>Free Coffee is a <br>tap away</h2>
-            <a href="#" class="btn">Join Now</a>
+            <span>Bienvenido a</span>
+            <h1>Café Starbucks</h1>
+            <h2>El café gratis es un<br>toque lejos</h2>
+            <!-- Botón de llamada a la acción -->
+            <a href="#" class="btn">Únete ahora</a>
         </div>
+        <!-- Imagen principal de la página de inicio -->
         <div class="home-img">
             <img src="img/home.png" alt="">
         </div>
      </section>
+     <!-- Sección de tienda donde se muestran productos -->
      <section class="shop" id="shop">
         <div class="heading">
-            <span>Shop Now</span>
-            <h1>Shop Coffee</h1>
+            <span>Compra ahora</span>
+            <h1>Comprar Café</h1>
         </div>
+        <!-- Contenedor de productos en venta -->
         <div class="shop-container">
+            <!-- Producto 1 -->
             <div class="box">
                 <div class="box-img">
                     <img src="img/shop1.png" alt="">
                 </div>
+                <!-- Calificación con estrellas -->
                 <div class="stars">
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
@@ -53,54 +61,58 @@
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star-half' ></i>
                 </div>
-                <h2>Starbucks Coffee</h2>
-                <span>$ 12.4</span>
-                <a href="#" class="btn">Order Now</a>
+                <h2>Fresa Late</h2>
+                <span>$87</span>
+                <a href="#" class="btn">Ordene ahora</a>
             </div>
+            <!-- Producto 2 -->
             <div class="box">
                 <div class="box-img">
                     <img src="img/shop2.png" alt="">
                 </div>
+                <!-- Calificación con estrellas -->
                 <div class="stars">
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half' ></i>
+                    <i class='bx bxs-star'></i>
                 </div>
-                <h2>Starbucks Coffee</h2>
-                <span>$ 12.4</span>
-                <a href="#" class="btn">Order Now</a>
+                <h2>Moka Capuchino</h2>
+                <span>$92</span>
+                <a href="#" class="btn">Ordene ahora</a>
             </div>
+            <!-- Producto 3 -->
             <div class="box">
                 <div class="box-img">
                     <img src="img/shop3.png" alt="">
                 </div>
+                <!-- Calificación con estrellas -->
                 <div class="stars">
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half' ></i>
+                    <i class='bx bx-star'></i>
                 </div>
-                <h2>Starbucks Coffee</h2>
-                <span>$ 12.4</span>
-                <a href="#" class="btn">Order Now</a>
+                <h2>Té Matcha</h2>
+                <span>$79</span>
+                <a href="#" class="btn">Ordene ahora</a>
             </div>
         </div>
      </section>
      <!-- Delivery -->
      <section class="delivery" id="delivery">
         <div class="heading">
-            <span>Get Now</span>
-            <h1>Order With Uber Eats</h1>
+            <span>Obtener ahora</span>
+            <h1>Ordene con Uber Eats</h1>
         </div>
         <div class="container">
             <div class="deliver-img">
                 <img src="img/delivery.png" alt="">
             </div>
             <div class="delivery-text">
-                <h2>Today deserve delivery</h2>
+                <h2>Hoy merece la entrega</h2>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque voluptates voluptate dolor possimus reiciendis placeat tempore iure dolorum eius.</p> 
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque voluptates voluptate dolor possimus reiciendis placeat tempore iure dolorum eius.</p>
                <a href="#" class="Order Now"></a>
@@ -110,12 +122,12 @@
      <!-- About -->
      <section class="app" id="app">
         <div class="heading">
-            <span>Our App</span>
-            <h1>Dowmload App</h1>
+            <span>Nuestra aplicación</span>
+            <h1>Descargar aplicación</h1>
         </div>
         <div class="container">
             <div class="app-text">
-                <h2>Fall into an easier routine</h2>
+                <h2>Caer en una rutina más fácil</h2>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque voluptates voluptate dolor possimus reiciendis placeat tempore iure dolorum eius.</p> 
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque voluptates voluptate dolor possimus reiciendis placeat tempore iure dolorum eius.</p>
                <a href="#" class="Get App"></a>
@@ -131,28 +143,30 @@
         <img src="img/about.png" alt="">
     </div>
     <div class="about-text">
-        <h2>50 years of serving communities</h2>
+        <h2>50 años sirviendo a las comunidades</h2>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque voluptates voluptate dolor possimus reiciendis placeat tempore iure dolorum eius.</p> 
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque voluptates voluptate dolor possimus reiciendis placeat tempore iure dolorum eius.</p>
        <a href="#" class="Learn More"></a>
     </div>
 </section>
-    <!-- Contact -->
+    <!-- Sección de contacto y redes sociales -->
      <section class="contact" id="contact">
         <div class="social">
             <a href="#"><i class='bx bxl-facebook' ></i></a>
             <a href="#"><i class='bx bxl-twitter' ></i></a>
-            <a href="#"><i class='bx bxl-instagran' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
             <a href="#"><i class='bx bxl-youtube' ></i></a>
         </div>
+        <!-- Enlaces adicionales de la empresa -->
         <div class="links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms Of Use</a>
-            <a href="#">Our Company</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Condiciones de uso</a>
+            <a href="#">Nuestra Empresa</a>
         </div>
-        <p>&#169; Edwin Diaz, todos los derechos reservados.</p>
+        <!-- Derechos de autor -->
+        <p>&#169; Edwin Diaz & todos los derechos reservados.</p>
      </section>
-    <!-- Link to Custom Js -->
+    <!-- Enlace al archivo de JavaScript personalizado para interactividad -->
      <script src="main.js"></script>
 </body>
 </html>
